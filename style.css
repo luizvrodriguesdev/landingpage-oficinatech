@@ -1,26 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .Intro {
-    background-image: linear-gradient(to right, rgba(55, 47, 162, 0.959) 0%, rgba(255, 255, 255, 0)), linear-gradient(to top, rgba(55, 47, 162, 0.959) 0%, rgba(255, 255, 255, 0)), url(assets/banner-trader\ 1.png);
-    background-repeat: no-repeat;
-    background-position: 70%;
-    background-size: 1000px
-    
-
-
-    
-      
+  background-image: linear-gradient(
+      to right,
+      #2a005781 0%,
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(
+      to top,
+      rgba(55, 47, 162, 0.959) 10%,
+      rgba(255, 255, 255, 0)
+    ),
+    url(assets/mobile-banner-trader\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 30% top;
+  background-size: cover;
 }
 
 span {
-    color: #0DFF99;
+  color: #0dff99;
 }
 
 p {
-    font-weight: 400;
+  font-weight: 400;
+  font-size: 13px;
 }
-
