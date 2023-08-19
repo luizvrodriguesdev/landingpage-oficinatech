@@ -57,4 +57,11 @@ h2.Yellow {
   background-size: cover;
   background-color: rgb(41, 35, 120);
   mix-blend-mode: multiply;
+  height: 524px;
+}
+
+.FeatureWindowContainer {
+  background-color: #282378;
+  padding: 50px 20px 19px 20px;
+  margin-bottom: 62px;
 }
