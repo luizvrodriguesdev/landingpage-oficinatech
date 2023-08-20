@@ -3,17 +3,19 @@
 body {
   font-family: "Inter", sans-serif;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.068);
+  
 }
 
 .Intro {
-  background-image: linear-gradient(
+  background-image: /* linear-gradient(
       to right,
-      #2a005781 0%,
+      #2a0057ad 40%,
       rgba(255, 255, 255, 0)
-    ),
+    ), */
     linear-gradient(
       to top,
-      rgba(55, 47, 162, 0.959) 10%,
+      rgba(55, 47, 162, 0.952) 5%,
+      rgba(55, 47, 162, 0.884) 10%,
       rgba(255, 255, 255, 0)
     ),
     url(assets/mobile-banner-trader\ 1.png);
@@ -21,6 +23,7 @@ body {
   background-position: 30% top;
   background-size: cover;
 }
+
 
 span {
   color: #0dff99;
@@ -31,11 +34,13 @@ p {
   font-size: 14px;
 }
 
-.FeaturesDiv {
+.FeaturesInfo {
   background-color: #2a0057;
-  margin: 10px 20px;
+  margin: 15px 15px;
   border-radius: 10px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+  
+  
 }
 
 .Yellow {
@@ -47,7 +52,7 @@ h2.Yellow {
   padding: 20px 0px 10px 20px;
 }
 
-.FeaturesDiv p {
+.FeaturesInfo p {
   padding: 0px 10px 20px 20px;
 }
 
@@ -56,12 +61,85 @@ h2.Yellow {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(41, 35, 120);
-  mix-blend-mode: multiply;
+
   height: 524px;
 }
 
+
+
 .FeatureWindowContainer {
   background-color: #282378;
-  padding: 50px 20px 19px 20px;
-  margin-bottom: 62px;
+  padding: 0px 20px 19px 20px;
+
+  width: 280px;
+  height: 202px;
+  margin-bottom: 120px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.EmojiIcon {
+  margin-top: -36px;
+  width: 68px;
+  height: 68px;
+  margin-bottom: 14px;
+}
+
+.InputBox {
+  
+  padding: 9px 13px;
+  color: black;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.Radio {
+  margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .Intro {
+    background-image: /* linear-gradient(
+      to right,
+      #2a0057ad 40%,
+      rgba(255, 255, 255, 0)
+    ), */
+    linear-gradient(
+      to top,
+      rgba(55, 47, 162, 0.952) 5%,
+      rgba(55, 47, 162, 0.884) 10%,
+      rgba(255, 255, 255, 0)
+    ),
+    url(assets/banner-trader\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 55%;
+  background-size: cover;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  .MuchMore {
+    background-image: url(assets/tools-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-color: rgb(41, 35, 120);
+  
+    height: 424px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+.FeatureWindowContainer {
+  background-color: #282378;
+  padding: 0px 20px 19px 20px;
+  
+
+  
+  margin-bottom: 120px;
+  border-radius: 15px 15px 0px 0px;
+}
 }

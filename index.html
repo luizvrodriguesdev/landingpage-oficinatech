@@ -7,31 +7,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="w-full md:max-w-6xl font-bold text-white">
+  <body class="w-full md:max-w-6xl mx-auto font-bold text-white">
     <header class="Banner w-full flex flex-col">
-      <section class="Intro pt-32 md:pt-14 px-5 md:pl-28 pb-11">
-        <div class="Logo">
+      <section class="Intro pt-40 md:pt-14 px-5 md:pl-28 pb-11">
+        <div class="Logo max-w-sm mx-auto md:mx-0">
           <img src="assets/logo.png" class="w-72" alt="App Logo" />
         </div>
-        <div class="IntroText w-full md:max-w-md pt-4">
+        <div class="IntroText max-w-sm mx-auto md:mx-0 md:max-w-md pt-4">
           <h1 class="text-base md:text-4xl pr-12">
             <span style="color: #fbcb34">CHEGA DE PROBLEMAS</span> COM CHECK-IN
             EM SEU AUTOCENTER?
           </h1>
           <!-- class="text-[15px] text-justify pt-6"-->
-          <p class="pt-5">
+          <p class="pt-4 text-xs md:text-base md:leading-7">
             O <span>melhor aplicativo de vistoria para oficinas</span> chegou!
           </p>
-          <p>Você pode agilizar ainda mais a entrada e saída de</p>
-          <p class="pb-"></p>
-            veículos em seu pátio e ter controle total em suas mãos!
+          <p class="pb-5 text-xs md:text-base md:leading-7">
+            Você pode agilizar ainda mais a entrada e saída de veículos em seu
+            pátio e ter controle total em suas mãos!
           </p>
         </div>
         <div
-          class="FreeTrialButton flex flex-col justify-center px-5 absolute inset-x-0 top-[350px]"
+          class="FreeTrialButton flex flex-col md:inline justify-center px-5"
         >
           <button
-            class="rounded-md py-3 px-4 text-sm"
+            class="rounded-md py-3 px-4 text-sm -mb-20 md:-ml-4"
             style="background-color: #0dff99; color: #3730a3"
           >
             QUERO MEU TESTE DE 30 DIAS AGORA
@@ -45,24 +45,34 @@
         style="background-color: #3730a3"
       >
         <div class="Text text-center">
-          <h2 class="h2 text-xl pb-6">
+          <h2 class="h2 text-xl pb-6 md:text-3xl">
             Veja o depoimento de quem <br />
-            <span class="text-[#FBCB34] text-4xl">JÁ USA NOSSO APP</span> <br />
+            <span class="text-[#FBCB34] text-4xl md:text-7xl"
+              >JÁ USA NOSSO APP</span
+            >
+            <br />
             Depoimentos de clientes reais!
           </h2>
         </div>
-        <div class="Videos flex flex-col items-center gap-6 pb-9">
+        <div
+          class="Videos flex flex-col md:flex-row md:justify-center items-center gap-6 pb-9"
+        >
           <img src="assets/image 2.png" alt="" />
           <img src="assets/image 2.png" alt="" />
         </div>
       </section>
-      <section class="Tired bg-[#282378] pt-10">
-        <div class="px-5">
-          <h2 class="text-2xl">
+
+      <section
+        class="Tired bg-[#282378] pt-10 md:pt-0 md:flex md:items-center md:justify-center md:gap-5 md:pr-12"
+      >
+        <div class="TiredText px-5 md:max-w-md max-w-2xl mx-auto md:text-right">
+          <h2 class="text-2xl lg:text-4xl md:pt-8">
             CANSADO DE PERDER <br />
-            <span class="text-[#00B5FF] text-[63px]/[1]">DINHEIRO?</span>
+            <span class="text-[#00B5FF] text-[63px]/[1] lg:text-7xl"
+              >DINHEIRO?</span
+            >
           </h2>
-          <p class="pt-3">
+          <p class="pt-3 lg:text-base md:leading-7">
             Você já passou por aqueles momentos que um cliente reclamou de
             alguma avaria no carro dele que
             <span class="text-[#FBCB34] font-bold">NÃO ACONTECEU</span> em seu
@@ -72,25 +82,32 @@
               >por isso criamos o OFICINA TECH</span
             >, uma aplicativo suporte moderno para vistoria de automóveis!
           </p>
-          <div class="FreeTrialButton flex flex-col justify-center pt-5 pb-8">
+          <div
+            class="FreeTrialButton flex flex-col justify-center pt-5 md:pt-9 pb-8 md:px md:items-end"
+          >
             <button
-              class="rounded-md py-3 px-4 text-sm"
+              class="rounded-md py-3 md:py-5 px-4 md:px-14 text-sm"
               style="background-color: #0dff99; color: #3730a3"
             >
               QUERO MEU TESTE DE 30 DIAS AGORA
             </button>
           </div>
         </div>
-        <img src="assets/man-loss 2.jpg" class="w-full" alt="" />
+        <picture>
+          <source media="(min-width: 768px)" srcset="assets/man-loss.jpg" />
+          <img src="assets/man-loss 2.jpg" class="w-full" alt="" />
+        </picture>
       </section>
       <section class="Profit bg-[#3730a3] text-center pt-10 pb-6">
-        <h2 class="text-2xl pb-6">
+        <h2 class="text-2xl md:text-4xl pb-6 px-5">
           É POSSÍVEL <span>AUMENTAR</span>
-          <div class="text-[#FBCB34] text-4xl">MEU FATURAMENTO</div>
+          <span class="text-[#FBCB34] text-3xl md:text-4xl"
+            >MEU FATURAMENTO</span
+          ><br />
           COM O APLICATIVO
-          <div class="text-[#D75267] text-2xl">OFICINATECH?</div>
+          <span class="text-[#D75267] text-2xl md:text-4xl">OFICINATECH?</span>
         </h2>
-        <p class="px-5">
+        <p class="px-5 md:text-base md:max-w-[800px] md:mx-auto md:leading-7">
           Aqui
           <span class="text-[#FBCB34] font-bold">não prometemos milagres</span>,
           como qualquer outro trabalho precisa de
@@ -106,9 +123,11 @@
           <span class="font-bold">mais dinheiro em seu bolso!</span>
         </p>
       </section>
-      <section class="Features bg-[#3730a3] pt-2">
-        <div class="FeaturesDiv">
-          <h2 class="Yellow">😜 Cadastro de clientes</h2>
+      <section
+        class="Features bg-[#3730a3] pt-2 md:px-5 lg:px-16 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3"
+      >
+        <div class="FeaturesInfo">
+          <h2 class="Yellow md:text-xl">😜 Cadastro de clientes</h2>
           <p>
             Realize a gestão de forma simples dos seus clientes com o nosso
             aplicativo. Cadastre e gerencie informações importantes dos clientes
@@ -116,8 +135,8 @@
             dos cadastros teremos ferramentas de marketing ativa.
           </p>
         </div>
-        <div class="FeaturesDiv">
-          <h2 class="Yellow">🧙 Indentificação de avarias</h2>
+        <div class="FeaturesInfo">
+          <h2 class="Yellow md:text-xl">🧙 Indentificação de avarias</h2>
           <p>
             Tire quantas fotos forem necessárias dos automóveis durante as
             vistorias de entrada e saída. Com o nosso aplicativo, não há limites
@@ -125,8 +144,8 @@
             um registro completo para futuras referências.
           </p>
         </div>
-        <div class="FeaturesDiv">
-          <h2 class="Yellow">👻 Painel administrativo</h2>
+        <div class="FeaturesInfo">
+          <h2 class="Yellow md:text-xl">👻 Painel administrativo</h2>
           <p>
             Simplifique o controle de check-in e check-out dos automóveis com o
             nosso painel admin. Tenha uma visão geral das vistorias realizadas,
@@ -134,81 +153,227 @@
             gestão mais eficiente. Controle 100% de suas vistorias muito fácil!
           </p>
         </div>
-        <div class="FeaturesDiv">
-          <h2 class="Yellow">🤓 Vistoria Offline</h2>
+        <div class="FeaturesInfo 2">
+          <h2 class="Yellow md:text-xl">🤓 Vistoria Offline</h2>
           <p>
-            Não se preocupe com a necessidade de internet durante as vistorias. Nosso aplicativo permite realizar inspeções sem conexão, garantindo que todas as informações sejam armazenadas localmente e sincronizadas automaticamente quando você tiver online.
+            Não se preocupe com a necessidade de internet durante as vistorias.
+            Nosso aplicativo permite realizar inspeções sem conexão, garantindo
+            que todas as informações sejam armazenadas localmente e
+            sincronizadas automaticamente quando você tiver online.
           </p>
         </div>
-        <div class="FeaturesDiv">
-          <h2 class="Yellow">💪 Suporte Especializado</h2>
-          <p>
-            Conte com o nosso suporte especializado em horário comercial para esclarecer dúvidas e auxiliar no uso do aplicativo. Estamos prontos para atendê-lo e garantir que você aproveite ao máximo todas as funcionalidades do sistema.
+        <div class="FeaturesInfo md:pb-2">
+          <h2 class="Yellow md:text-xl">💪 Suporte Especializado</h2>
+          <p class="">
+            Conte com o nosso suporte especializado em horário comercial para
+            esclarecer dúvidas e auxiliar no uso do aplicativo. Estamos prontos
+            para atendê-lo e garantir que você aproveite ao máximo todas as
+            funcionalidades do sistema.
           </p>
         </div>
-        <div class="FeaturesDiv">
-          <h2 class="Yellow">🤝 Gestão total (breve)</h2>
+        <div class="FeaturesInfo">
+          <h2 class="Yellow md:text-xl">🤝 Gestão total (breve)</h2>
           <p>
-            Além dos módulos já disponíveis, como cadastro de clientes, identificação de avarias e painel administrativo, nosso aplicativo está em constante evolução. Em breve, incluiremos novos módulos, como financeiro, orçamentos e estoque, proporcionando uma gestão total.
+            Além dos módulos já disponíveis, como cadastro de clientes,
+            identificação de avarias e painel administrativo, nosso aplicativo
+            está em constante evolução. Em breve, incluiremos novos módulos,
+            como financeiro, orçamentos e estoque, proporcionando uma gestão
+            total.
           </p>
-        </div>
-        <div class="FreeTrialButton flex flex-col justify-center pt-5 px-5 pb-8">
-          <button
-            class="rounded-md py-3 px-4 text-sm"
-            style="background-color: #0dff99; color: #3730a3"
-          >
-            QUERO MEU TESTE DE 30 DIAS AGORA
-          </button>
         </div>
       </section>
-      <section class="MuchMore pt-40 px-5 pb-24">
-        <h2 class="text-4xl pb-6"><span class="text-[#00BCC8] pr-20">MUITO MAIS</span> DO QUE UM <span class="text-[#FF00D6]">APP</span></h2>
-        <p>A OFICINA TECH em breve irá muito além de um aplicativo para vistoria. Um sistema de gestão completo para seu autocenter, desde a entrada e saída dos automóveis, até controle de estoque, financeiro, e muito mais!</p>
+      <div
+        class="FreeTrialButton flex flex-col justify-center pt-8 px-5 pb-8 -mt-[15px] bg-[#3730a3]"
+      >
+        <button
+          class="rounded-md py-3 px-4 md:py-4 text-sm max-w-lg w-full mx-auto"
+          style="background-color: #0dff99; color: #3730a3"
+        >
+          QUERO MEU TESTE DE 30 DIAS AGORA
+        </button>
+      </div>
+      <section class="MuchMore pt-40 md:pt-28 px-5 pb-24 bg-black">
+        <div class="max-w-sm sm:max-w-lg lg:max-w-[700px] md:pl-16">
+          <h2 class="text-4xl md:text-[44px] pb-6">
+            <span class="text-[#00BCC8]">MUITO MAIS</span>
+            <div class="sm:inline">
+              DO QUE UM <span class="text-[#FF00D6]">APP</span>
+            </div>
+          </h2>
+          <p class="text-xs sm:text-base md:text-lg">
+            A OFICINA TECH em breve irá muito além de um aplicativo para
+            vistoria. Um sistema de gestão completo para seu autocenter, desde a
+            entrada e saída dos automóveis, até controle de estoque, financeiro,
+            e muito mais!
+          </p>
+        </div>
       </section>
-      <section class="FeaturesTrial bg-[#3730a3] flex flex-col items-center px-5">
-        <div class="FeatureWindowContainer -mt-24">
-          <img src="assets/Brand icon.svg" class="" alt="">
+      <section
+        class="FeaturesTrial bg-[#3730a3] flex flex-col lg:grid lg:grid-cols-3 lg:gap-4 items-center lg:place-items-center px-5 lg:pt-[88px]"
+      >
+        <div class="FeatureWindowContainer -mt-24 lg:-mt-44">
+          <img src="assets/Brand icon.svg" class="EmojiIcon" alt="" />
           <h2 class="text-[#F5A410] text-2xl pb-4">gestão completa</h2>
-          <p class="text-xs">Em breve o OFICINA TECH terá um sistema para gestão completa de sua oficina, controle de estoque, orçamentos, financeiro e muito mais. Os clientes com o APP de Vistoria terão prioridade!</p>
-          <div class="FreeTrialButton flex flex-col justify-center pt-5 px-5 pb-8">
+          <p class="text-xs pb-1">
+            Em breve o OFICINA TECH terá um sistema para gestão completa de sua
+            oficina, controle de estoque, orçamentos, financeiro e muito mais.
+            Os clientes com o APP de Vistoria terão prioridade!
+          </p>
+          <div class="FreeTrialButton flex flex-col pt-4 pb-8 w-full">
             <button
-              class="rounded-md py-3 px-4 text-sm"
-              style="background-color: #FF00D6; color: #282378"
+              class="rounded-b-[15px] py-6 pl-6 -mx-5 text-sm text-left"
+              style="background-color: #ff00d6; color: #282378"
             >
               Quero testar agora →
             </button>
           </div>
         </div>
-        <div class="FeatureWindowContainer ">
-          <img src="assets/Brand icon2.svg" class="" alt="">
+        <div class="FeatureWindowContainer lg:-mt-44">
+          <img src="assets/Brand icon2.svg" class="EmojiIcon" alt="" />
           <h2 class="text-[#F5A410] text-2xl pb-4">inteligência artificial</h2>
-          <p class="text-xs">Utilizaremos uma inteligência artificial para fazer um marketing ativo para a sua empresa. Já imaginou o sistema enviar uma mensagem para seu cliente lembrando da troca de óleo?</p>
-          <div class="FreeTrialButton flex flex-col justify-center pt-5 px-5 pb-8">
+          <p class="text-xs pb-1">
+            Utilizaremos uma inteligência artificial para fazer um marketing
+            ativo para a sua empresa. Já imaginou o sistema enviar uma mensagem
+            para seu cliente lembrando da troca de óleo?
+          </p>
+          <div class="FreeTrialButton flex flex-col pt-4 pb-8">
             <button
-              class="rounded-md py-3 px-4 text-sm"
-              style="background-color: #FF00D6; color: #282378"
+              class="rounded-b-[15px] py-6 pl-6 -mx-5 text-sm text-left"
+              style="background-color: #00b5ff; color: #282378"
             >
               Quero testar agora →
             </button>
           </div>
         </div>
-        <div class="FeatureWindowContainer ">
-          <img src="assets/Brand icon3.svg" class="" alt="">
+        <div class="FeatureWindowContainer lg:-mt-44">
+          <img src="assets/Brand icon3.svg" class="EmojiIcon" alt="" />
           <h2 class="text-[#F5A410] text-2xl pb-4">tecnologia de ponta</h2>
-          <p class="text-xs">De nada adianta temos uma grande idéia e não ter uma boa estrutura tecnológica por trás. Aplicativo e servidores usando as últimas tendências de tecnologia, para nunca te deixar na mão no dia-a-dia!</p>
-          <div class="FreeTrialButton flex flex-col justify-center pt-5 px-5 pb-8">
+          <p class="text-xs pb-1">
+            De nada adianta temos uma grande idéia e não ter uma boa estrutura
+            tecnológica por trás. Aplicativo e servidores usando as últimas
+            tendências de tecnologia, para nunca te deixar na mão no dia-a-dia!
+          </p>
+          <div class="FreeTrialButton flex flex-col pt-4 pb-8">
             <button
-              class="rounded-md py-3 px-4 text-sm"
-              style="background-color: #FF00D6; color: #282378"
+              class="rounded-b-[15px] py-6 pl-6 -mx-5 text-sm text-left"
+              style="background-color: #fbcb34; color: #282378"
             >
               Quero testar agora →
             </button>
           </div>
         </div>
-
       </section>
-      <section></section>
-      <footer></footer>
+      <section
+        class="bg-[#282378] text-center flex flex-col items-center pt-10 pb-16 md:px-5"
+      >
+        <h2 class="pb-2 max-w-xl md:max-w-[700px]">
+          <span class="text-3xl md:text-4xl">QUER TESTAR</span>
+          <span class="text-2xl text-white md:text-4xl block md:inline"
+            >NOSSO APLICATIVO </span
+          >🚀
+          <span class="text-[42px] md:text-5xl text-[#FF00D6]"
+            >TOTALMENTE
+          </span>
+          <span class="text-[64px] md:text-[48px] text-[#FF00D6]">GRÁTIS?</span>
+        </h2>
+        <p class="pb-5 md:text-base md:max-w-4xl px-5">
+          Você quer facilitar a
+          <span class="text-[#00F0FF] font-bold"
+            >gestão das entradas e saídas de veículos</span
+          >
+          em sua oficina? Experimente agora mesmo nosso
+          <span class="text-[#FBCB34] font-bold"
+            >aplicativo de vistoria de veículos!</span
+          >
+          Com uma interface intuitiva e recursos avançados, você poderá agilizar
+          todo o processo, aumentando a eficiência e proporcionando uma
+          <span class="text-[#FF00D6] font-bold"
+            >experiência de atendimento</span
+          >
+          excepcional para seus clientes. Não perca mais tempo! Cadastre-se
+          abaixo e
+          <span class="font-bold">teste gratuitamente o nosso aplicativo.</span>
+          Descubra como simplificar a rotina da sua oficina e melhorar o seu
+          negócio!
+        </p>
+        <section
+          id="form"
+          class="SignUpForm bg-[#3730a3] font-normal pt-10 pb-4 px-9 flex flex-col max-w-2xl w-full gap-4 -mx-5 md:rounded-[30px]"
+        >
+          <div
+            class="Together flex flex-col gap-4 md:flex-row md:justify-between md:gap-8"
+          >
+            <div id="input-full-name" class="flex flex-col md:w-full text-left">
+              <label for="full-name">Nome completo</label>
+              <input type="text" class="InputBox" />
+            </div>
+            <div
+              id="input-company-name"
+              class="flex flex-col md:w-full text-left"
+            >
+              <label for="company-name">Nome da empresa</label>
+              <input type="text" class="InputBox" />
+            </div>
+          </div>
+
+          <div id="input-email" class="flex flex-col text-left">
+            <label for="email">E-mail </label>
+            <input type="email" class="InputBox" />
+          </div>
+
+          <div
+            class="Together flex flex-col gap-4 md:flex-row md:justify-between md:gap-8"
+          >
+            <div id="input-city" class="flex flex-col md:w-full text-left">
+              <label for="city">Cidade</label>
+              <input type="text" class="InputBox" />
+            </div>
+            <div id="input-state" class="flex flex-col md:w-full text-left">
+              <label for="state">Estado</label>
+              <input type="text" class="InputBox" />
+            </div>
+          </div>
+
+          <div id="input-heard-about" class="flex flex-col text-left">
+            <label for="heard-about">Como você ouviu falar de nós?</label>
+            <input type="text" class="InputBox" />
+          </div>
+
+          <div id="input-car-quantity" class="">
+            <p class="text-base pb-5">
+              Quantos carros você atende ao mês em média?
+            </p>
+
+            <input type="radio" class="Radio" />
+            <label for="car-quantity1">Menos que 10 carros</label><br />
+            <input type="radio" class="Radio" />
+            <label for="car-quantity2">Entre 11 e 20 carros</label><br />
+            <input type="radio" class="Radio" />
+            <label for="car-quantity3">Entre 21 e 49 carros</label><br />
+            <input type="radio" class="Radio" />
+            <label for="car-quantity4">Acima de 50 carros</label><br />
+          </div>
+          <div
+            class="FreeTrialButton flex flex-col items-center pt-5 px-5 pb-12 bg-[#3730a3] -mx-8 md-mx-5"
+          >
+            <button
+              class="rounded-md py-5 px-4 text-sm md:text-lg font-bold md:max-w-4xl max-w-lg w-full"
+              style="background-color: #0dff99; color: #3730a3"
+            >
+              QUERO MEU TESTE DE 30 DIAS AGORA
+            </button>
+          </div>
+        </section>
+      </section>
     </main>
+    <footer>
+      <div class="Logo bg-[#3730a3] flex justify-center">
+        <img
+          src="assets/logo.png"
+          class="w-72 md:w-auto px-8 pt-12 pb-28"
+          alt="App Logo"
+        />
+      </div>
+    </footer>
   </body>
 </html>
