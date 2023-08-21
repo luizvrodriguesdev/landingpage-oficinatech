@@ -7,18 +7,14 @@ body {
 }
 
 .Intro {
-  background-image: /* linear-gradient(
-      to right,
-      #2a0057ad 40%,
-      rgba(255, 255, 255, 0)
-    ), */
-    linear-gradient(
+  background-image: 
+    /* linear-gradient(
       to top,
       rgba(55, 47, 162, 0.952) 5%,
       rgba(55, 47, 162, 0.884) 10%,
       rgba(255, 255, 255, 0)
-    ),
-    url(assets/mobile-banner-trader\ 1.png);
+    ), */
+    url(assets/banner-mecanico.png);
   background-repeat: no-repeat;
   background-position: 30% top;
   background-size: cover;
@@ -100,18 +96,14 @@ h2.Yellow {
 @media only screen and (min-width: 768px) {
 
   .Intro {
-    background-image: /* linear-gradient(
-      to right,
-      #2a0057ad 40%,
-      rgba(255, 255, 255, 0)
-    ), */
-    linear-gradient(
+  background-image: 
+    /* linear-gradient(
       to top,
       rgba(55, 47, 162, 0.952) 5%,
       rgba(55, 47, 162, 0.884) 10%,
       rgba(255, 255, 255, 0)
-    ),
-    url(assets/banner-trader\ 1.png);
+    ), */
+    url(assets/banner-mecanico-desktop.png);
   background-repeat: no-repeat;
   background-position: 55%;
   background-size: cover;

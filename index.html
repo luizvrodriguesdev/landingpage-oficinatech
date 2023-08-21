@@ -7,7 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="w-full md:max-w-6xl mx-auto font-bold text-white">
+  <body
+    class="w-full flex flex-col items-center track leading-7 font-bold text-white bg-indigo-800"
+  >
     <header class="Banner w-full flex flex-col">
       <section class="Intro pt-40 md:pt-14 px-5 md:pl-28 pb-11">
         <div class="Logo max-w-sm mx-auto md:mx-0">
@@ -39,9 +41,9 @@
         </div>
       </section>
     </header>
-    <main>
+    <main class=" ">
       <section
-        class="Testimonials px-5 pt-10"
+        class="Testimonials md:max-w-6xl px-5 pt-10"
         style="background-color: #3730a3"
       >
         <div class="Text text-center">
@@ -63,12 +65,13 @@
       </section>
 
       <section
-        class="Tired bg-[#282378] pt-10 md:pt-0 md:flex md:items-center md:justify-center md:gap-5 md:pr-12"
+        class="Tired bg-[#282378] pt-10 md:pt-0 md:flex md:items-center md:justify-center md:gap-5 md:pr-12 w-full"
       >
         <div class="TiredText px-5 md:max-w-md max-w-2xl mx-auto md:text-right">
           <h2 class="text-2xl lg:text-4xl md:pt-8">
             CANSADO DE PERDER <br />
-            <span class="text-[#00B5FF] text-[63px]/[1] lg:text-7xl"
+            <span
+              class="text-[#00B5FF] text-[63px]/[1] tracking-tighter lg:text-7xl"
               >DINHEIRO?</span
             >
           </h2>
@@ -344,14 +347,16 @@
               Quantos carros você atende ao mês em média?
             </p>
 
-            <input type="radio" class="Radio" />
-            <label for="car-quantity1">Menos que 10 carros</label><br />
-            <input type="radio" class="Radio" />
-            <label for="car-quantity2">Entre 11 e 20 carros</label><br />
-            <input type="radio" class="Radio" />
-            <label for="car-quantity3">Entre 21 e 49 carros</label><br />
-            <input type="radio" class="Radio" />
-            <label for="car-quantity4">Acima de 50 carros</label><br />
+            <div class="flex flex-col">
+              <input type="radio" class="Radio flex-row" />
+              <label for="car-quantity1">Menos que 10 carros</label><br />
+              <input type="radio" class="Radio" />
+              <label for="car-quantity2">Entre 11 e 20 carros</label><br />
+              <input type="radio" class="Radio" />
+              <label for="car-quantity3">Entre 21 e 49 carros</label><br />
+              <input type="radio" class="Radio" />
+              <label for="car-quantity4">Acima de 50 carros</label><br />
+            </div>
           </div>
           <div
             class="FreeTrialButton flex flex-col items-center pt-5 px-5 pb-12 bg-[#3730a3] -mx-8 md-mx-5"
