@@ -32,7 +32,7 @@ p {
 
 .FeaturesInfo {
   background-color: #2a0057;
-  margin: 15px 15px;
+  margin: 10px 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
   
@@ -46,7 +46,10 @@ p {
 
 h2.Yellow {
   padding: 20px 0px 10px 20px;
+  font-size: 16px;
 }
+
+
 
 .FeaturesInfo p {
   padding: 0px 10px 20px 20px;
@@ -67,18 +70,30 @@ h2.Yellow {
   background-color: #282378;
   padding: 0px 20px 19px 20px;
 
-  width: 280px;
+
+  width: 320px;
   height: 202px;
   margin-bottom: 120px;
   border-radius: 15px 15px 0px 0px;
 }
 
-.EmojiIcon {
+.trial-card-title {
+  font-size: 28px;
+  color: #F5A410;
+  padding-bottom: 16px;
+  padding-left: 4px;
+}
+
+.emoji-icon {
+  background-color: #4F46E5;
   margin-top: -36px;
+  border-radius: 12px;
   width: 68px;
   height: 68px;
   margin-bottom: 14px;
 }
+
+
 
 .InputBox {
   

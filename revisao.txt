@@ -1,0 +1,33 @@
+line height - leading ordem de prioridade
+
+classes minusculas
+
+title-card
+
+padrão de paddings
+
+mask group
+
+minuscula
+
+conver png to webp
+
+resize 640
+
+getemoji.com
+
+margin top no form
+
+label for, id, name, valeu
+
+logo espaço footer na versao mobile
+
+logo no lado esquerdo versao desktop
+
+
+versao mobile
+
+diminuir espaçamento entre caracteres
+
+height dos cardbox
+
