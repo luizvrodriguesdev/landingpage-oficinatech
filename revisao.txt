@@ -18,7 +18,7 @@ getemoji.com
 
 margin top no form
 
-label for, id, name, valeu
+label for, id, name, value
 
 logo espaço footer na versao mobile
 
@@ -31,3 +31,8 @@ diminuir espaçamento entre caracteres
 
 height dos cardbox
 
+
+
+
+354 x 77
+210 x 45
