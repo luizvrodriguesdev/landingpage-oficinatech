@@ -3,23 +3,21 @@
 body {
   font-family: "Inter", sans-serif;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.068);
-  
 }
 
-.Intro {
+.intro {
   background-image: 
     /* linear-gradient(
       to top,
       rgba(55, 47, 162, 0.952) 5%,
       rgba(55, 47, 162, 0.884) 10%,
       rgba(255, 255, 255, 0)
-    ), */
-    url(assets/banner-mecanico.png);
+    ), */ url(assets/banner-mecanico.png);
   background-repeat: no-repeat;
   background-position: 30% top;
   background-size: cover;
+  
 }
-
 
 span {
   color: #0dff99;
@@ -30,29 +28,99 @@ p {
   font-size: 14px;
 }
 
-.FeaturesInfo {
+
+
+
+/* @media only screen and (min-width: 768px) {
+  .tired {
+    height: 500px;
+  }
+} */
+
+
+
+@media only screen and (min-width: 1024px) {
+  .tired {
+    
+    width: 98vw;
+  }
+}
+
+@media only screen and (min-width: 1602px) {
+  .tired {
+    height: 701px;
+    width: 99vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1303px) {
+  .tired-text > h2 {
+
+  }
+}
+ 
+
+.card-box-div {
   background-color: #2a0057;
   margin: 10px 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
-  
-  
 }
 
-.Yellow {
+@media only screen and (min-width: 768px) {
+  .card-box-div {
+    background-color: #2a0057;
+    margin: 10px 0px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .card-box-div {
+    background-color: #2a0057;
+    margin: 10px -9px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.card-box-div p {
+  padding: 0px 10px 20px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-box-div p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 11px 26px 32px;
+  }
+}
+
+.card-box-title {
   color: #f5a410;
   font-weight: bold;
 }
 
-h2.Yellow {
+@media only screen and (min-width: 768px) {
+  .card-box-title {
+    color: #f5a410;
+    font-weight: bold;
+  }
+}
+
+h2.card-box-title {
   padding: 20px 0px 10px 20px;
   font-size: 16px;
 }
 
-
-
-.FeaturesInfo p {
-  padding: 0px 10px 20px 20px;
+@media only screen and (min-width: 768px) {
+  h2.card-box-title {
+    padding: 30px 11px 18px 32px;
+    font-size: 24px;
+  }
 }
 
 .MuchMore {
@@ -64,28 +132,25 @@ h2.Yellow {
   height: 524px;
 }
 
-
-
-.FeatureWindowContainer {
+.trial-feature-card {
   background-color: #282378;
   padding: 0px 20px 19px 20px;
 
-
-  width: 320px;
-  height: 202px;
+  width: 362px;
+  height: 266px;
   margin-bottom: 120px;
   border-radius: 15px 15px 0px 0px;
 }
 
 .trial-card-title {
   font-size: 28px;
-  color: #F5A410;
+  color: #f5a410;
   padding-bottom: 16px;
   padding-left: 4px;
 }
 
 .emoji-icon {
-  background-color: #4F46E5;
+  background-color: #4f46e5;
   margin-top: -36px;
   border-radius: 12px;
   width: 68px;
@@ -93,10 +158,7 @@ h2.Yellow {
   margin-bottom: 14px;
 }
 
-
-
 .InputBox {
-  
   padding: 9px 13px;
   color: black;
   border-radius: 6px;
@@ -108,45 +170,51 @@ h2.Yellow {
   margin-bottom: 16px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
+  .intro {
 
-  .Intro {
-  background-image: 
+    background-repeat: no-repeat;
+    background-position: 55%;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    background-image: 
     /* linear-gradient(
       to top,
       rgba(55, 47, 162, 0.952) 5%,
       rgba(55, 47, 162, 0.884) 10%,
       rgba(255, 255, 255, 0)
-    ), */
-    url(assets/banner-mecanico-desktop.png);
-  background-repeat: no-repeat;
-  background-position: 55%;
-  background-size: cover;
+    ), */ url(assets/banner-mecanico-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 55%;
+    background-size: cover;
   }
-  
 }
 
 @media only screen and (min-width: 1024px) {
   .MuchMore {
-    background-image: url(assets/tools-desktop.png);
+    background-image: url(assets/chave-oficina.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
     background-color: rgb(41, 35, 120);
-  
+
     height: 424px;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
-.FeatureWindowContainer {
-  background-color: #282378;
-  padding: 0px 20px 19px 20px;
-  
+  .trial-feature-card {
+    background-color: #282378;
+    padding: 0px 20px 19px 20px;
+    width: 362px;
+    height: 266px;
 
-  
-  margin-bottom: 120px;
-  border-radius: 15px 15px 0px 0px;
-}
+    margin-bottom: 120px;
+    border-radius: 15px 15px 0px 0px;
+  }
 }

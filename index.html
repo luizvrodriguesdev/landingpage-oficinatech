@@ -10,46 +10,56 @@
   <body
     class="w-full flex flex-col items-center track leading-7 font-bold text-white bg-indigo-800"
   >
-    <header class="Banner w-full flex flex-col">
-      <section class="Intro pt-44 md:pt-24 px-5 md:pl-96 pb-10 md:pb-32">
-        <div class="Logo max-w-sm mx-auto md:mx-0">
-          <img src="assets/logo.png" class="w-52 md:w-80" alt="App Logo" />
-        </div>
+    <header class="banner-mechanic w-full flex flex-col">
+      <section
+        class="intro pt-44 lg:pt-24 px-5 sm:flex sm:justify-around pb-10 lg:pb-32"
+      >
         <div
-          class="IntroText max-w-sm mx-auto md:mx-0 md:max-w-2xl pt-2 md:pt-7"
+          class="IntroText max-w-sm mx-auto xl:mx-0 md:max-w-lg xl:max-w-2xl pt-2 xl:pt-7"
         >
-          <h1 class="text-base md:text-5xl pr-12 md:leading-tight">
+          <div class="logo max-w-sm mx-auto md:mx-0 pb-2 md:pb-4 xl:pb-7">
+            <img
+              src="assets/logo.png"
+              class="w-52 md:w-72 xl:w-80"
+              alt="App Logo"
+            />
+          </div>
+          <h1 class="text-base md:text-3xl xl:text-5xl pr-12 xl:leading-tight">
             <span style="color: #fbcb34">CHEGA DE PROBLEMAS</span> COM CHECK-IN
-            EM SEU <span class="md:text-6xl  text-white">AUTOCENTER</span>?
+            EM SEU <span class="xl:text-6xl text-white">AUTOCENTER</span>?
           </h1>
-          <!-- class="text-[15px] text-justify pt-6"-->
-          <p class="pt-4 md:pt-0 text-xs md:text-2xl md:leading-9">
+
+          <p
+            class="pt-4 xl:pt-0 text-xs sm:text-sm md:text-base xl:text-2xl xl:leading-9"
+          >
             O <span>melhor aplicativo de vistoria para oficinas</span> chegou!
           </p>
-          <p class="pb-5 text-xs md:text-2xl md:leading-9">
+          <p class="pb-5 text-xs md:text-base xl:text-2xl xl:leading-9">
             Você pode agilizar ainda mais a entrada e saída de <br />
             veículos em seu pátio e ter controle total em suas mãos!
           </p>
-          <div class="FreeTrialButton flex flex-col md:inline justify-center">
+          <div class="FreeTrialButton flex flex-col xl:inline justify-center">
             <button
-              class="rounded-md py-4 md:py-6 md:px-14 px-6 text-sm md:text-xl  "
+              class="rounded-md py-4 xl:py-6 max-w-xl w-full xl:px-20 px-6 text-sm xl:text-xl"
               style="background-color: #0dff99; color: #3730a3"
             >
               QUERO MEU TESTE DE 30 DIAS AGORA
             </button>
           </div>
         </div>
+        <div class="sm:max-w-xl md:max-w-2xl sm:px-24 md:px-32 lg:px-44"></div>
       </section>
     </header>
     <main class=" ">
       <section
-        class="testimonials md:max-w-6xl mx-auto px-5"
+        class="testimonials xl:max-w-6xl mx-auto px-5"
         style="background-color: #3730a3"
       >
         <div class="testimonial-title text-center">
-          <h2 class="h2 text-xl pb-6 md:pb-9 md:text-4xl">
+          <h2 class="h2 text-xl pb-6 xl:pb-9 md:text-3xl xl:text-4xl">
             Veja o depoimento de quem <br />
-            <span class="text-[#FBCB34] text-[32px]/[40px] md:text-8xl"
+            <span
+              class="text-[#FBCB34] text-[32px]/[40px] md:text-7xl xl:text-8xl"
               >JÁ USA NOSSO APP</span
             >
             <br />
@@ -59,25 +69,27 @@
         <div
           class="testimonial-videos flex flex-col md:flex-row md:justify-center items-center gap-7 pb-9 md:pb-28"
         >
-          <img src="assets/image 2.png" class="md:h-72" alt="" />
-          <img src="assets/image 2.png" class="md:h-72" alt="" />
+          <img src="assets/image 2.png" class="xl:h-72" alt="" />
+          <img src="assets/image 2.png" class="xl:h-72" alt="" />
         </div>
       </section>
 
       <section
-        class="Tired w-screen bg-[#282378] pt-10 md:pt-0 md:flex md:items-center md:justify-center md:gap-5 md:pr-12"
+        class="tired bg-[#282378] pt-10 md:pt-0 md:w-screen md:flex lg:justify-center md:items-center md:gap-5"
       >
         <div
-          class="TiredText px-5 md:pr-9 md:max-w-xl max-w-2xl mx-auto md:mx-0 md:text-right "
+          class="tired-text lg:flex lg:flex-col px-5 xl:pr-9 md:max-w-md xl:max-w-xl mx-auto lg:mx-0 lg:text-right"
         >
-          <h2 class="text-2xl lg:text-5xl ">
+          <h2 class="text-2xl lg:text-4xl xl:text-5xl">
             CANSADO DE PERDER <br />
             <span
-              class="text-[#00B5FF] text-[64px]/[1] tracking-tighter lg:text-8xl "
+              class="text-[#00B5FF] text-[64px]/[1] tracking-tighter md:text-7xl xl:text-8xl"
               >DINHEIRO?</span
             >
           </h2>
-          <p class="pl-1 pt-3 md:pt-12 text-xs/[14px] md:text-xl md:-ml-16 md:leading-9">
+          <p
+            class="pl-1 pt-3 lg:pt-12 text-xs/[16px] sm:text-sm sm:leading-7 md:leading-5 lg:leading-9 lg:text-xl xl:ml-0"
+          >
             Você já passou por aqueles momentos que um cliente reclamou de
             alguma avaria no carro dele que
             <span class="text-[#FBCB34] font-bold">NÃO ACONTECEU</span> em seu
@@ -88,34 +100,47 @@
             >, um aplicativo suporte moderno para vistoria de automóveis!
           </p>
           <div
-            class="FreeTrialButton flex flex-col justify-center pt-5 md:pt-11 pb-8 md:items-end"
+            class="FreeTrialButton flex flex-col justify-center pt-5 md:pt-4 xl:pt-11 pb-8 md:pb-3 xl:items-end"
           >
             <button
-              class="rounded-md py-4 md:py-6 md:px-14 px-6 text-sm md:text-xl"
+              class="rounded-md py-4 xl:py-6 xl:px-16 px-6 text-sm md:text-base xl:text-xl font-bold"
               style="background-color: #0dff99; color: #3730a3"
             >
               QUERO MEU TESTE DE 30 DIAS AGORA
             </button>
           </div>
         </div>
-        <picture>
-          <source media="(min-width: 768px)" srcset="assets/man-loss.jpg" />
-          <img src="assets/man-loss 2.jpg" class="w-full" alt="" />
-        </picture>
+        <div class="woman-image md:mr-4 md:w-full justify-center">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="assets/man-loss.jpg"
+              class=""
+            />
+            <img
+              src="assets/man-loss 2.jpg"
+              class="md:max-w-xs lg:max-w-xl w-full"
+              alt=""
+            />
+          </picture>
+        </div>
       </section>
       <section
-        class="profit-increase md:max-w-6xl md:mx-auto bg-[#3730a3] text-center pt-10 pb-6"
+        class="profit-increase md:max-w-3xl xl:max-w-6xl md:mx-auto bg-[#3730a3] text-center pt-28 pb-6 md:pb-14"
       >
-        <h2 class="text-2xl md:text-4xl pb-6 px-5">
+        <h2 class="text-2xl md:text-4xl xl:text-5xl pb-6 xl:pb-5 px-5">
           É POSSÍVEL <span>AUMENTAR</span>
-          <span class="text-[#FBCB34] text-3xl md:text-4xl"
+          <span class="text-[#FBCB34] text-3xl md:text-4xl xl:text-5xl"
             >MEU FATURAMENTO</span
           ><br />
           COM O APLICATIVO
-          <span class="text-[#D75267] text-2xl md:text-4xl">OFICINATECH?</span>
+          <span
+            class="text-[#D75267] text-2xl md:text-4xl xl:text-5xl xl:leading-snug"
+            >OFICINATECH?</span
+          >
         </h2>
         <p
-          class="px-5 text-sm md:text-base md:max-w-[800px] md:mx-auto md:leading-7"
+          class="px-5 text-sm md:text-lg xl:text-xl xl:max-w-5xl xl:mx-auto xl:leading-9"
         >
           Aqui
           <span class="text-[#FBCB34] font-bold">não prometemos milagres</span>,
@@ -133,10 +158,10 @@
         </p>
       </section>
       <section
-        class="features-card-box bg-[#3730a3] pt-2 md:px-5 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 lg:px-16 md:max-w-6xl text-xs"
+        class="features-card-box bg-[#3730a3] pt-2 md:px-5 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 md:gap-x-7 lg:gap-x-12 md:gap-y-2 md:mx-auto md:pb-14 md:max-w-6xl text-xs"
       >
-        <div class="FeaturesInfo">
-          <h2 class="Yellow md:text-xl">😜 Cadastro de clientes</h2>
+        <div class="card-box-div">
+          <h2 class="card-box-title md:text-xl">😜 Cadastro de clientes</h2>
           <p>
             Realize a gestão de forma simples dos seus clientes com o nosso
             aplicativo. Cadastre e gerencie informações importantes dos clientes
@@ -144,8 +169,10 @@
             dos cadastros teremos ferramentas de marketing ativa.
           </p>
         </div>
-        <div class="FeaturesInfo">
-          <h2 class="Yellow md:text-xl">🧙 Indentificação de avarias</h2>
+        <div class="card-box-div">
+          <h2 class="card-box-title md:text-xl">
+            🧙 Indentificação de avarias
+          </h2>
           <p>
             Tire quantas fotos forem necessárias dos automóveis durante as
             vistorias de entrada e saída. Com o nosso aplicativo, não há limites
@@ -153,8 +180,8 @@
             um registro completo para futuras referências.
           </p>
         </div>
-        <div class="FeaturesInfo">
-          <h2 class="Yellow md:text-xl">👻 Painel administrativo</h2>
+        <div class="card-box-div">
+          <h2 class="card-box-title md:text-xl">👻 Painel administrativo</h2>
           <p>
             Simplifique o controle de check-in e check-out dos automóveis com o
             nosso painel admin. Tenha uma visão geral das vistorias realizadas,
@@ -162,8 +189,8 @@
             gestão mais eficiente. Controle 100% de suas vistorias muito fácil!
           </p>
         </div>
-        <div class="FeaturesInfo 2">
-          <h2 class="Yellow md:text-xl">🤓 Vistoria Offline</h2>
+        <div class="card-box-div">
+          <h2 class="card-box-title md:text-xl">🤓 Vistoria Offline</h2>
           <p>
             Não se preocupe com a necessidade de internet durante as vistorias.
             Nosso aplicativo permite realizar inspeções sem conexão, garantindo
@@ -171,8 +198,8 @@
             sincronizadas automaticamente quando você tiver online.
           </p>
         </div>
-        <div class="FeaturesInfo md:pb-2">
-          <h2 class="Yellow md:text-xl">💪 Suporte Especializado</h2>
+        <div class="card-box-div">
+          <h2 class="card-box-title md:text-xl">💪 Suporte Especializado</h2>
           <p class="">
             Conte com o nosso suporte especializado em horário comercial para
             esclarecer dúvidas e auxiliar no uso do aplicativo. Estamos prontos
@@ -180,8 +207,8 @@
             funcionalidades do sistema.
           </p>
         </div>
-        <div class="FeaturesInfo">
-          <h2 class="Yellow md:text-xl">🤝 Gestão total (breve)</h2>
+        <div class="card-box-div">
+          <h2 class="card-box-title md:text-xl">🤝 Gestão total (breve)</h2>
           <p>
             Além dos módulos já disponíveis, como cadastro de clientes,
             identificação de avarias e painel administrativo, nosso aplicativo
@@ -192,24 +219,26 @@
         </div>
       </section>
       <div
-        class="FreeTrialButton flex flex-col justify-center pt-5 px-5 pb-9 bg-[#3730a3]"
+        class="FreeTrialButton flex flex-col justify-center pt-5 px-5 pb-9 sm:pb-24"
       >
         <button
-          class="rounded-md py-3 px-4 md:py-4 text-sm max-w-lg w-full mx-auto"
+          class="rounded-md py-4 sm:py-6 max-w-xl w-full sm:px-20 px-6 text-sm sm:text-xl mx-auto"
           style="background-color: #0dff99; color: #3730a3"
         >
           QUERO MEU TESTE DE 30 DIAS AGORA
         </button>
       </div>
-      <section class="MuchMore w-full pt-44 md:pt-28 px-5 pb-24">
-        <div class="max-w-sm sm:max-w-lg lg:max-w-[700px] md:pl-16">
-          <h2 class="text-4xl md:text-[44px] pb-6">
-            <span class="text-[#00BCC8]">MUITO MAIS</span>
-            <div class="sm:inline text-[40px]/[40px] -mr-1">
+      <section
+        class="MuchMore w-full pt-44 md:pt-36 md:pl-80 px-5 pb-24 md:pb-96"
+      >
+        <div class="max-w-sm sm:max-w-xl lg:max-w-4xl md:pl-16">
+          <h2 class="text-4xl md:text-5xl pb-6">
+            <span class="text-[#00BCC8] md:text-5xl">MUITO MAIS</span>
+            <div class="sm:inline text-[40px]/[40px] md:text-5xl -mr-1">
               DO QUE UM <span class="text-[#FF00D6]">APP</span>
             </div>
           </h2>
-          <p class="text-xs sm:text-base md:text-lg">
+          <p class="text-xs sm:text-base md:text-xl md:leading-9 md:pr-24">
             A OFICINA TECH em breve irá muito além de um aplicativo para
             vistoria. Um sistema de gestão completo para seu autocenter, desde a
             entrada e saída dos automóveis, até controle de estoque, financeiro,
@@ -218,12 +247,12 @@
         </div>
       </section>
       <section
-        class="FeaturesTrial bg-[#3730a3] flex flex-col lg:grid lg:grid-cols-3 lg:gap-4 items-center lg:place-items-center px-5 lg:pt-[88px] -mb-3"
+        class="features-trial bg-[#3730a3] flex flex-col xl:flex-row items-center xl:justify-center xl:gap-20 px-5 xl:pb-6 lg:pt-[88px] -mb-3"
       >
-        <div class="FeatureWindowContainer -mt-24 lg:-mt-44">
+        <div class="trial-feature-card -mt-24 xl:-mt-48">
           <img src="assets/Brand icon.svg" class="emoji-icon" alt="" />
           <h2 class="trial-card-title">gestão completa</h2>
-          <p class="text-xs pb-1 pl-1">
+          <p class="text-base pb-1 pl-1">
             Em breve o OFICINA TECH terá um sistema para gestão completa de sua
             oficina, controle de estoque, orçamentos, financeiro e muito mais.
             Os clientes com o APP de Vistoria terão prioridade!
@@ -237,12 +266,12 @@
             </button>
           </div>
         </div>
-        <div class="FeatureWindowContainer lg:-mt-44">
+        <div class="trial-feature-card xl:-mt-48">
           <div class="emoji-icon p-5">
             <img src="assets/arm.png" class="" alt="" />
           </div>
           <h2 class="trial-card-title -mr-1">inteligência artificial</h2>
-          <p class="text-xs pb-3 pl-1">
+          <p class="text-base pb-3 lg:pb-1 pl-1">
             Utilizaremos uma inteligência artificial para fazer um marketing
             ativo para a sua empresa. Já imaginou o sistema enviar uma mensagem
             para seu cliente lembrando da troca de óleo?
@@ -256,12 +285,12 @@
             </button>
           </div>
         </div>
-        <div class="FeatureWindowContainer lg:-mt-44">
+        <div class="trial-feature-card xl:-mt-48">
           <div class="emoji-icon">
             <img src="assets/handshake.png" class="p-5" alt="" />
           </div>
           <h2 class="trial-card-title">tecnologia de ponta</h2>
-          <p class="text-xs pb-1 pl-1">
+          <p class="text-base pb-1 pl-1">
             De nada adianta temos uma grande idéia e não ter uma boa estrutura
             tecnológica por trás. Aplicativo e servidores usando as últimas
             tendências de tecnologia, para nunca te deixar na mão no dia-a-dia!
@@ -277,21 +306,24 @@
         </div>
       </section>
       <section
-        class="bg-[#282378] text-center flex flex-col items-center pt-12 pb-16 md:px-5"
+        class="trial-our-app bg-[#282378] text-center flex flex-col items-center pt-12 pb-16 md:pb-36 md:pt-24 md:px-5"
       >
-        <h2 class="pb-2 max-w-xl md:max-w-[700px]">
-          <span class="text-3xl md:text-4xl">QUER TESTAR</span>
-          <span class="text-2xl text-white md:text-4xl block md:inline"
+        <h2 class="pb-2 md:pb-4 max-w-xl md:max-w-4xl">
+          <span class="text-3xl md:text-5xl">QUER TESTAR</span>
+          <span class="text-2xl md:text-5xl text-white block md:inline"
             >NOSSO APLICATIVO 🚀</span
           >
-          <span class="text-4xl md:text-5xl leading-normal text-[#FF00D6]"
+          <span
+            class="text-4xl md:text-6xl leading-normal md:leading-snug text-[#FF00D6]"
             >TOTALMENTE
           </span>
-          <span class="text-6xl md:text-[48px] leading-tight text-[#FF00D6]"
+          <span class="text-6xl md:text-6xl leading-tight text-[#FF00D6]"
             >GRÁTIS?</span
           >
         </h2>
-        <p class="pb-6 text-xs md:text-base md:max-w-4xl px-5">
+        <p
+          class="pb-6 md:pb-20 text-xs md:text-xl md:leading-9 md:max-w-5xl px-5 md:px-0"
+        >
           Você quer facilitar a
           <span class="text-[#00F0FF] font-bold"
             >gestão das entradas e saídas de veículos</span
@@ -311,9 +343,10 @@
           Descubra como simplificar a rotina da sua oficina e melhorar o seu
           negócio!
         </p>
+      </section>
         <section
           id="form"
-          class="SignUpForm bg-[#3730a3] font-normal pt-10 pb-4 px-9 flex flex-col max-w-2xl w-full gap-4 -mx-5 md:rounded-[30px]"
+          class="SignUpForm bg-[#3730a3] font-normal pt-10 md:pt-16 pb-4 px-9 md:px-28 flex flex-col max-w-3xl w-full gap-4 md:gap-6 -mx-5 md:rounded-[30px]"
         >
           <div
             class="Together flex flex-col gap-4 md:flex-row md:justify-between md:gap-8"
@@ -352,64 +385,67 @@
             </div>
           </div>
 
-          <div id="input-heard-about" class="flex flex-col text-left">
-            <label for="heard-about">Como você ouviu falar de nós?</label>
-            <input type="text" class="InputBox" />
-          </div>
-
-          <div id="input-car-quantity" class="">
-            <p class="text-base pb-5 text-left">
-              Quantos carros você atende ao mês em média?
-            </p>
-
-            <div class="flex flex-col items-start">
-              <div class="flex-col place-items-start">
-                <input
-                  type="radio"
-                  id="car-quantity1"
-                  name="average"
-                  value="Menos que 10 carros"
-                  class="Radio"
-                />
-                <label for="car-quantity1">Menos que 10 carros</label><br />
-              </div>
-              <div>
-                <input
-                  type="radio"
-                  id="car-quantity2"
-                  name="average"
-                  value="Entre 11 e 20 carros"
-                  class="Radio"
-                />
-                <label for="car-quantity2">Entre 11 e 20 carros</label><br />
-              </div>
-              <div>
-                <input
-                  type="radio"
-                  id="car-quantity3"
-                  name="average"
-                  value="Entre 21 e 49 carros"
-                  class="Radio"
-                />
-                <label for="car-quantity3">Entre 21 e 49 carros</label><br />
-              </div>
-              <div>
-                <input
-                  type="radio"
-                  id="car-quantity4"
-                  name="average"
-                  value="Acima de 50 carros"
-                  class="Radio"
-                />
-                <label for="car-quantity4">Acima de 50 carros</label><br />
+          <div class="div-form-reverse sm:flex sm:flex-col-reverse">
+            <div
+              id="input-heard-about"
+              class="flex flex-col text-left pb-8 sm:pb-0"
+            >
+              <label for="heard-about">Como você ouviu falar de nós?</label>
+              <input type="text" class="InputBox" />
+            </div>
+            <div id="input-car-quantity" class="flex flex-col">
+              <p class="text-xl pb-5 sm:pb-8 text-left">
+                Quantos carros você atende ao mês em média?
+              </p>
+              <div class="radio-options flex flex-col items-start">
+                <div class="radio-1 md:pb-1">
+                  <input
+                    type="radio"
+                    id="car-quantity1"
+                    name="average"
+                    value="Menos que 10 carros"
+                    class="Radio"
+                  />
+                  <label for="car-quantity1">Menos que 10 carros</label><br />
+                </div>
+                <div class="radio-2 md:pb-1">
+                  <input
+                    type="radio"
+                    id="car-quantity2"
+                    name="average"
+                    value="Entre 11 e 20 carros"
+                    class="Radio"
+                  />
+                  <label for="car-quantity2">Entre 11 e 20 carros</label><br />
+                </div>
+                <div class="radio-3 md:pb-1">
+                  <input
+                    type="radio"
+                    id="car-quantity3"
+                    name="average"
+                    value="Entre 21 e 49 carros"
+                    class="Radio"
+                  />
+                  <label for="car-quantity3">Entre 21 e 49 carros</label><br />
+                </div>
+                <div class="radio-4 md:pb-1">
+                  <input
+                    type="radio"
+                    id="car-quantity4"
+                    name="average"
+                    value="Acima de 50 carros"
+                    class="Radio"
+                  />
+                  <label for="car-quantity4">Acima de 50 carros</label><br />
+                </div>
               </div>
             </div>
           </div>
           <div
-            class="FreeTrialButton flex flex-col items-center pt-5 px-5 pb-12 bg-[#3730a3] -mx-9 md-mx-5"
+            class="FreeTrialButton flex flex-col items-center pt-5 px-5 pb-12 sm:pb-20 -mx-9"
           >
             <button
-              class="rounded-md py-4 px-6 text-sm md:text-lg font-bold md:max-w-4xl max-w-lg w-full"
+              class="rounded-md py-4 sm:py-6 max-w-xl w-full sm:px-20 px-6 text-sm sm:text-xl font-bold"
               style="background-color: #0dff99; color: #3730a3"
             >
               QUERO MEU TESTE DE 30 DIAS AGORA
@@ -418,11 +454,11 @@
         </section>
       </section>
     </main>
-    <footer>
-      <div class="Logo bg-[#3730a3] flex justify-center">
+    <footer class="md:w-full md:h-52">
+      <div class="logo flex justify-center lg:pr-96 md:justify-start">
         <img
           src="assets/logo.png"
-          class="w-72 md:w-auto px-8 pt-12 pb-60"
+          class="w-72 sm:w-auto px-8 lg:pr-96 lg:mx-auto pt-12 max-w-5xl pb-60 lg:pb-0"
           alt="App Logo"
         />
       </div>
