@@ -39,26 +39,6 @@ p {
 
 
 
-@media only screen and (min-width: 1024px) {
-  .tired {
-    
-    width: 98vw;
-  }
-}
-
-@media only screen and (min-width: 1602px) {
-  .tired {
-    height: 701px;
-    width: 99vw;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1303px) {
-  .tired-text > h2 {
-
-  }
-}
- 
 
 .card-box-div {
   background-color: #2a0057;
