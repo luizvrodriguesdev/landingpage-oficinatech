@@ -110,7 +110,7 @@ h2.card-box-title {
   }
 }
 
-.MuchMore {
+.much-more {
   background-image: url(assets/tools.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,6 +118,19 @@ h2.card-box-title {
 
   /* height: 524px; */
 }
+
+@media only screen and (min-width: 1024px) {
+  .much-more {
+    background-image: url(assets/chave-oficina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-color: rgb(41, 35, 120);
+
+    /* height: 424px; */
+  }
+}
+
 
 .trial-feature-card {
   background-color: #282378;
@@ -158,15 +171,15 @@ h2.card-box-title {
   margin-bottom: 14px;
 }
 
-.InputBox {
-  padding: 9px 13px;
+.input-box {
+  padding: 9px 10px;
   color: black;
   border-radius: 6px;
   border: 1px solid #d1d5db;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
-.Radio {
+.radio {
   margin-bottom: 16px;
 }
 
@@ -195,15 +208,4 @@ h2.card-box-title {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .MuchMore {
-    background-image: url(assets/chave-oficina.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    background-color: rgb(41, 35, 120);
-
-    /* height: 424px; */
-  }
-}
 
