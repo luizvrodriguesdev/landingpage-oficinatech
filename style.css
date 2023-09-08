@@ -86,6 +86,7 @@ p {
 
 .card-box-div p {
   padding: 0px 10px 20px 20px;
+  line-height: 18px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -167,6 +168,16 @@ h2.card-box-title {
 
     margin-bottom: 120px;
     border-radius: 15px 15px 0px 0px;
+  }
+}
+
+.features-card-box p {
+  line-height: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .features-card-box p {
+    line-height: 20px;
   }
 }
 
