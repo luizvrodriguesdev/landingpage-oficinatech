@@ -1,0 +1,19 @@
+compactação de img -V
+
+caixas passar pro lg -V
+
+padrao de paddings das 9caixas p-6
+
+lineheight 1.25rem
+
+row-gap 12px caixas
+
+
+
+1152px pra todos os filhos
+
+espaçamento entre h2 e p's
+
+scale brl white
+
+input with label
